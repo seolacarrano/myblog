@@ -1,9 +1,16 @@
 import { useParams } from "react-router-dom";
+import NotFoundPage from "./NotFoundPage";
 import articles from './project-content';
 
 const ProjectPage = () => {
     const { projectId } = useParams();
     const article = articles.find(article => article.name === projectId);
+
+    if(!article) {
+        return (
+            <NotFoundPage />
+        )
+    }
 
     return (
         <>
