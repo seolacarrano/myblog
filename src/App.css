@@ -55,6 +55,10 @@ nav a:hover {
   padding-top: 64px;
 }
 
+.bodyText {
+  text-align: center;
+}
+
 .article-list-item {
   text-decoration: none;
   color: black;

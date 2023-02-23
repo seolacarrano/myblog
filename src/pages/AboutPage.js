@@ -1,6 +1,6 @@
 const AboutPage = () => {
     return (
-        <p> This is a about page! </p>
+        <p className="bodyText"> This is a about page! </p>
     )
 }
 

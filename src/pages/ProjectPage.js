@@ -14,9 +14,9 @@ const ProjectPage = () => {
 
     return (
         <>
-        <h1>{article.title}</h1>
+        <h1 className="bodyText">{article.title}</h1>
         {article.content.map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
+            <p className="bodyText" key={i}>{paragraph}</p>
         ))}
         </>
     )

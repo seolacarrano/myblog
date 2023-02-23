@@ -4,7 +4,7 @@ import articles from './project-content';
 const ProjectsListPage = () => {
     return (
         <>
-        <h1>Projects</h1>
+        <h1 className="bodyText">Projects</h1>
         <ProjectsList articles={articles} />
         </>
     )
