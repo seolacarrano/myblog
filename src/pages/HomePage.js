@@ -9,10 +9,10 @@ const HomePage = () => {
             <div className="text">
                 <h3>Seola Carrano</h3>
                 <h1>Software Engineer</h1>
-                <h2>developing software projects, identifying details</h2>
+                <h2>identify details and develop software projects</h2>
             </div>
             <div className="picture">
-            <img src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1601408107/profile_ou0hwh.jpg" alt="profile picture"></img>
+            <img src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1678733652/profile_yaygpt.png" alt="profile picture"></img>
             </div>
            </div>
            <ProjectsListPage />

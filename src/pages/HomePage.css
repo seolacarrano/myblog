@@ -1,11 +1,30 @@
 .homepage {
+    color: #333333;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 100px 30px;
 }
 
 .introduction {
     display: flex;
     justify-content: space-around;
+    height: 100vh;
+    animation: transitionIn 3.5s;
+}
+
+.picture {
+    margin: 50px;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
