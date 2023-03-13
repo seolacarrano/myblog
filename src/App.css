@@ -19,11 +19,11 @@ h3, h4 {
 
 nav {
   border-bottom: 4px solid black;
-  text-align: center;
+  text-align: right;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: black;
 }
 
 nav ul {
@@ -40,14 +40,34 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
   padding: 16px 32px;
 }
 
 nav a:hover {
   background: black;
-  color: white;
+  color: pink;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #757575;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  font-size: small; 
+}
+
+footer p a{
+  text-decoration: none;
+  color: #757575;
 }
 
 #page-body {

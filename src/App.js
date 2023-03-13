@@ -22,6 +22,10 @@ function App() {
         </Routes>
       </div>
       </div>
+      <footer>
+        <p>© 2023 Seola Carrano</p>
+        <p><a href="carrano.seola@gmail.com">carrano.seola@gmail.com</a></p>
+      </footer>
     </BrowserRouter>
   );
 }

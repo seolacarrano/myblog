@@ -1,6 +1,9 @@
 const HomePage = () => {
     return (
-        <p className="bodyText"> This is a home page! </p>
+        <>
+            <p className="bodyText"> This is a home page! </p>
+        </>
+
     )
 }
 
