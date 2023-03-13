@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    animation: transitionIn 2s;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.socialMedia {
+    display: flex;
+    margin-top: 50px;
+}
+
+.icon {
+   width:20%;
+}
+
+.picture {
+    margin: 50px;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
