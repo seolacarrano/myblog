@@ -1,6 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  background-color: #F6F4F3;
 }
 
 button {
@@ -23,7 +24,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: black;
+  background: #F6F4F3;
 }
 
 nav ul {
@@ -40,14 +41,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #31241E;
   font-weight: bold;
   padding: 16px 32px;
 }
 
 nav a:hover {
-  background: black;
-  color: pink;
+  color: #D1C8C1;
 }
 
 footer {
@@ -65,9 +65,11 @@ footer p {
   font-size: small; 
 }
 
-footer p a{
+footer a{
   text-decoration: none;
   color: #757575;
+  font-size: small;
+  margin-top: 13px;
 }
 
 #page-body {

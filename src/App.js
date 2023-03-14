@@ -26,7 +26,7 @@ function App() {
       </div>
       <footer>
         <p>© 2023 Seola Carrano</p>
-        <p><a href="carrano.seola@gmail.com">carrano.seola@gmail.com</a></p>
+        <a className="email" href="mailto: carrano.seola@gmail.com" target="_blank">carrano.seola@gmail.com</a>
       </footer>
     </BrowserRouter>
   );

@@ -11,9 +11,7 @@ const HomePage = () => {
                 <h1>Software Engineer</h1>
                 <h2>identify details and develop software projects</h2>
             </div>
-            <div className="picture">
-            <img src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1678733652/profile_yaygpt.png" alt="profile picture"></img>
-            </div>
+            <img className="picture" src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1678806502/mainpic_gxnmd6.png" alt="profile picture"></img>
            </div>
            <ProjectsListPage />
         </div>
