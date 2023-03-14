@@ -13,6 +13,10 @@
     animation: transitionIn 3.5s;
 }
 
+.text {
+    margin-left: 60px;
+}
+
 .picture {
     margin: 50px;
     max-width: 30%;
