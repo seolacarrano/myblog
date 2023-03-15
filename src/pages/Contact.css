@@ -15,12 +15,32 @@ a {
     margin-top: 50px;
 }
 
-.icon {
-   width:20%;
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 100px;
 }
 
-.picture {
-    margin: 50px;
+.iconContainer :hover {
+    background-color: #CDCFD4;
+}
+
+.iconList {
+    background-color:#E4DED7; 
+    margin-right: 50px;
+    border-radius: 10%;;
+    height: 200px;
+    display: inline-block;
+}
+
+.socialText {
+    display: none;
+}
+
+.icon {
+color: black;
+margin: 80px;
 }
 
 @keyframes transitionIn {
